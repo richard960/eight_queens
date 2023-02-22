@@ -1,0 +1,32 @@
+#board {
+  width: 400px;
+  height: 400px;
+}
+
+.white {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: wheat;
+}
+
+.brown {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: rgb(189, 158, 100);
+}
+
+.row {
+  height: 50px;
+  display: flex;
+}
+
+img {
+  display: block;
+}
+.queen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
